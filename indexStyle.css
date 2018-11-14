@@ -1,0 +1,406 @@
+body{
+margin: 0;
+padding: 0;
+/*background: url(media/background.jpg);*/
+background:#aaa;
+background-size: cover;
+background-position: center;
+font-family:  "Century Gothic";
+animation-name: change;
+animation-duration: 64s;
+height:1100px;
+
+animation-timing-function: linear;
+animation-iteration-count: infinite;
+}
+
+.robin img{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	margin-left: 200px;
+	margin-top: 150px;
+	left: 50%;
+  top:50%;
+}
+.robin h4{
+	position: absolute;
+	left: 50%;
+  top:50%;
+	font-size: 30px;
+	margin-top: 300px;
+}
+
+.alex img{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	margin-left: -400px;
+	margin-top: 150px;
+	left: 50%;
+  top:50%;
+}
+
+.alex1{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	margin-left: -590px;
+	margin-top: 150px;
+	left: 50%;
+  top:50%;
+}
+
+.alex2{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	margin-left: -400px;
+	margin-top: 450px;
+	left: 50%;
+  top:50%;
+}
+
+.alex3{
+	width: 200px;
+	height: 300px;
+	position: absolute;
+	margin-left: -590px;
+	margin-top: 450px;
+	left: 50%;
+  top:50%;
+}
+
+
+
+
+
+.alex h4{
+	position: absolute;
+	left: 50%;
+  top:50%;
+	font-size: 30px;
+	margin-top: 300px;
+	margin-left: -170px;
+}
+
+hr{
+	left: 50%;
+  top:50%;
+  color: #aaa;
+	margin-left: -500px;
+	margin-top: -180px;
+	background-color: #aaa;
+	width: 1000px;
+  height: 1px;
+	position: absolute;
+
+}
+
+.line2{
+	left: 50%;
+  top:50%;
+  color: #fff;
+	margin-left: -140px;
+	margin-top: 90px;
+	background-color: #fff;
+	width: 200px;
+  height: 7px;
+	position: absolute;
+}
+
+.xg{
+	left: 50%;
+  top:50%;
+	text-align: center;
+	margin-top: -170px;
+}
+
+
+
+h1{
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 48px;
+	color: #DA70D6;
+	left: 50%;
+  top:50%;
+  text-transform: uppercase;
+	margin-top: -320px;
+	text-align: center;
+	margin-left: -310px;
+	position: absolute;
+}
+
+h2{
+	left: 50%;
+  top:50%;
+	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 48px;
+	color: #228B22;
+  text-transform: none;
+	margin-top: -240px;
+	text-align: center;
+	margin-left: -180px;
+	position: absolute;
+	text-decoration: line-through;
+}
+
+a{
+	text-decoration:none;
+	color:#000;
+}
+
+.box1{
+	width: 190px;
+	height: 130px;
+	left: 50%;
+  top:50%;
+	margin-left: -450px;
+	margin-top: -150px;
+	position: absolute;
+	border-width: 3px;
+	border-color: red;
+	border: 6px solid #aaa;
+	animation: jump 2s 0s ease-in-out infinite;
+}
+
+.box1 p{
+	font-size: 35px;
+	margin-top: 60px;
+}
+
+
+.box2{
+	left: 50%;
+  top:50%;
+	width: 140px;
+	height: 80px;
+	font-size: 22px;
+	margin-left: -210px;
+	margin-top: -100px;
+	position: absolute;
+	border-width: 3px;
+	border-color: red;
+	border: 6px solid #aaa;
+	color: #000;
+
+}
+
+.box2 p{
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+.box3{
+	left: 50%;
+	top:50%;
+	width: 140px;
+	height: 80px;
+	font-size: 25px;
+	margin-left: -25px;
+	margin-top: -100px;
+	position: absolute;
+	border-width: 3px;
+	border-color: red;
+	border: 6px solid #aaa;
+}
+.box3 p{
+	font-size: 25px;
+	margin-top: 40px;
+}
+
+.box4{
+	left: 50%;
+	top:50%;
+	width: 140px;
+	height: 80px;
+	font-size: 22px;
+	margin-left: 150px;
+	margin-top: -100px;
+	position: absolute;
+	border-width: 3px;
+	border-color: red;
+	border: 6px solid #aaa;
+}
+.box4 p{
+	font-size: 20px;
+	margin-top: 45px;
+}
+
+.boxHome{
+	left: 50%;
+	top:50%;
+	width: 325px;
+	height: 30px;
+	font-size: 22px;
+	margin-left: -210px;
+	margin-top: -150px;
+	position: absolute;
+	border-width: 3px;
+	border-color: red;
+	border: 6px solid #aaa;
+}
+
+.boxHome p{
+	margin-top: 0px;
+	margin-left: 60px;
+	color: #000;
+}
+
+
+.boxes{
+
+}
+.box1:hover icon5{
+
+	animation: iconjump 2s 0s ease-in-out forwards;
+}
+
+.box1:hover {
+    background-color: #EE82EE;
+}
+
+.box2:hover{
+    background-color: #EE82EE;
+}
+
+.box2:hover icon7{
+	animation: iconjump 2s 0s ease-in-out forwards;
+}
+
+.box3:hover icon8{
+
+	animation: iconjump 2s 0s ease-in-out forwards;
+}
+
+.box3:hover{
+    background-color: #EE82EE;
+}
+
+.box4:hover icon6{
+
+	animation: iconjump 2s 0s ease-in-out forwards;
+}
+
+.boxHome:hover{
+    background-color: #EE82EE;
+}
+
+.boxHome:hover icon10{
+
+	animation: iconjump 2s 0s ease-in-out forwards;
+}
+
+.box4:hover{
+    background-color: #EE82EE;
+}
+
+h3{
+	left: 50%;
+	top:50%;
+	margin-left: -185px;
+  margin-top: 30px;
+	position: absolute;
+	font-size: 30px;
+}
+
+
+icon5{
+    margin-left: 20px;
+    margin-top: -130px;
+    opacity: 0;
+		font-size: 45px;
+		color:#000;
+}
+
+icon6{
+    margin-left: 20px;
+    margin-top: -90px;
+    opacity: 0;
+    font-size: 40px;
+		color:#000;
+}
+
+icon7{
+    margin-left: 20px;
+    margin-top: -85px;
+color:#000;
+    opacity: 0;
+}
+
+icon8{
+    margin-left: 20px;
+    margin-top: -90px;
+    opacity: 0;
+		color:#000;
+}
+
+icon10{
+    margin-left: 20px;
+    margin-top: -50px;
+    opacity: 0;
+		font-size: 25px;
+		color:#000;
+}
+
+@keyframes change{
+	0%{background: #AFEEEE}
+	10%{background: #B0E0E6}
+	20%{background: #ADD8E6}
+	30%{background: #87CEEB}
+	40%{background: #87CEFA}
+	50%{background: #B0C4DE}
+	60%{background: #87CEFA}
+	70%{background: #87CEEB}
+	80%{background: #ADD8E6}
+	90%{background: #B0E0E6}
+	100%{background: #AFEEEE}
+}
+
+@keyframes iconjump{
+    0%{
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+
+    20%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+
+    50%{
+        opacity: 1;
+        transform: rotateX(360deg);
+    }
+
+    100%{
+        opacity: 1;
+        transform: rotateX(360deg);
+    }
+}
+@keyframes jump{
+	0%{
+		transform: translateY(-3px);
+	}
+	50%{
+		transform: translateY(3px);
+	}
+	100%{
+		transform: translateY(-3px);
+	}
+}
+
+@keyframes schoolss{
+
+ 0%{
+		color: #aaa;
+	}
+
+	50%{
+		color: #2E8B57;
+	}
+
+	100%{
+		color: #aaa;
+	}
+}
