@@ -116,7 +116,15 @@ hr{
 	margin-top: -170px;
 }
 
+.xg h3{
+	margin-left: 210px;
+	margin-top: -220px;
+	text-decoration: underline;
+}
 
+span{
+	color: #DA70D6;
+}
 
 h1{
 	font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;

@@ -349,8 +349,9 @@ icon10{
 	width: 740px;
 	height: 80px;
 	font-size: 22px;
-	margin-left: -450px;
-	margin-top: 50px;
+
+	margin-left: -445px;
+	margin-top: 170px;
 	position: absolute;
 	border-width: 3px;
 	border-color: red;
@@ -394,8 +395,8 @@ icon10{
 	width: 740px;
 	height: 80px;
 	font-size: 22px;
-	margin-left: -375px;
-	margin-top: 80px;
+	margin-left: -450px;
+	margin-top: 50px;
 	position: absolute;
 	border-width: 3px;
 	border-color: red;
